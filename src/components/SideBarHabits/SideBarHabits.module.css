@@ -1,0 +1,67 @@
+table {
+  border-collapse: collapse;
+}
+
+.sidebar {
+  position: relative;
+  width: 269px;
+  height: 768px;
+  background: #373b53;
+}
+
+.side {
+  background-color: rgba(55, 59, 83, 0.9);
+  color: #a6acbe;
+}
+
+.habits {
+  height: 52px;
+  width: 214px;
+  border-bottom: 1px solid rgba(238, 240, 247, 0.1);
+  font-size: 14px;
+  line-height: 17px;
+  align-items: center;
+  letter-spacing: 0.01em;
+  font-family: Montserrat, sans-serif;
+  position: relative;
+  background-color: rgba(55, 59, 83, 0.9);
+  color: #a6acbe;
+  padding-left: 30px;
+}
+
+.habits::first-letter {
+  text-transform: uppercase;
+}
+
+.name {
+  height: 69px;
+  width: 214px;
+  padding-left: 30px;
+  font-family: Montserrat, sans-serif;
+  font-weight: normal;
+  letter-spacing: 0.01em;
+  line-height: 16px;
+  padding-top: 32px;
+}
+
+.btn {
+  width: 50px;
+  height: 54px;
+  background-color: #ff6c00;
+  box-shadow: 0px 10px 20px rgba(255, 108, 0, 0.16);
+  border: none;
+  color: white;
+  margin-right: 14px;
+}
+
+.habitWrap {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid rgba(238, 240, 247, 0.1);
+}
+
+.iconsWrap {
+  margin-left: 130px;
+  position: absolute;
+  top: 22px;
+}

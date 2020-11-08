@@ -1,0 +1,116 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 610px;
+  height: 511px;
+  background-color: #fff;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.05);
+}
+.title {
+  margin-bottom: 8px;
+  font-family: var(--main-font);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 36px;
+  color: var(--main-text-color);
+}
+
+.title_description {
+  margin-bottom: 19px;
+  width: 369px;
+  text-align: center;
+  font-family: var(--main-font);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 44px;
+  color: var(--main-text-color);
+}
+
+.form {
+  margin-bottom: 16px;
+}
+
+.nameLabel {
+  display: block;
+  position: relative;
+  color: var(--second-text-color);
+}
+
+.nameLabel span {
+  position: absolute;
+  top: 0px;
+  left: 8px;
+  font-size: 12px;
+  line-height: 15px;
+}
+
+.input {
+  margin-bottom: 19px;
+  width: 430px;
+  height: 51px;
+  padding-left: 8px;
+  font-family: var(--main-font);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.04em;
+  color: var(--main-text-color);
+  border: none;
+  border-bottom: 1px solid #eef0f6;
+}
+
+.nameLabel:last-of-type {
+  margin-bottom: 41px;
+}
+
+.input:focus {
+  outline: none;
+}
+
+.input::placeholder {
+  color: var(--second-text-color);
+}
+
+/* .input:hover::placeholder {
+  font-size: 12px;
+  line-height: 15px;
+} */
+
+.registration_btn {
+  width: 263px;
+  height: 50px;
+  display: block;
+  margin: 0 auto;
+  /* margin-bottom: 16px; */
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-family: var(--main-font);
+  font-style: normal;
+  font-weight: 500;
+  font-size: var(--main-font-size);
+  line-height: 22px;
+  letter-spacing: 0.02em;
+  color: #fff;
+  background: var(--orange-color);
+  box-shadow: 0px 10px 20px rgba(255, 108, 0, 0.16);
+}
+
+.form_description {
+  font-family: var(--main-font);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.04em;
+  color: var(--main-text-color);
+}
+
+.link {
+  color: var(--main-text-color);
+}

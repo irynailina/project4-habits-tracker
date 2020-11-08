@@ -1,0 +1,133 @@
+.ourTeam {
+  width: 1280px;
+  margin: 0 auto;
+  padding-top: 32px;
+}
+
+.ourTeamList {
+  padding-bottom: 86px;
+  justify-content: space-evenly;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.ourTeamItem {
+  text-align: center;
+  margin: 0px;
+}
+
+.Img {
+  width: 300px;
+  height: 320px;
+}
+
+.name {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+  color: #333333;
+  font-size: 14px;
+  font-family: Montserrat, sans-serif;
+  font-weight: 600;
+}
+
+.position {
+  display: flex;
+  justify-content: center;
+  font-weight: 300;
+  color: #333333;
+  line-height: 24px;
+  font-size: 15px;
+  font-family: Montserrat, sans-serif;
+  margin-bottom: 34px;
+}
+
+.Wrapper {
+  position: relative;
+}
+
+.overlay {
+  visibility: hidden;
+  opacity: 0.7;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  background-image: -webkit-linear-gradient(
+    70deg,
+    rgb(169, 210, 212) 0%,
+    rgb(255, 255, 255) 100%
+  );
+  width: 300px;
+  height: 300px;
+}
+
+.Wrapper:hover .overlay {
+  visibility: visible;
+  transition: all 200ms linear;
+  box-shadow: 15px 15px 1px 1px rgba(29, 25, 25, 0.5);
+  transform: translate(-5%, -5%);
+  /* align-content: center; не раскоменчивать */
+  /* align-content: center; не раскоменчивать */
+}
+
+.link {
+  padding-top: 150px;
+  margin-left: 10px;
+}
+
+.socialLinkWrapper svg:hover {
+  fill: red;
+}
+
+.socialLinkWrapper {
+  align-items: flex-end;
+  justify-content: center;
+  display: flex;
+  height: 94%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.goback {
+  align-content: center;
+  margin-bottom: 15px;
+  color: #333333;
+  font-size: 14px;
+  font-family: Montserrat, sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  width: 200px;
+  height: 40px;
+  background-color: rgba(200, 201, 200, 0.76);
+  border-radius: 10px;
+  position: relative;
+  left: 540px;
+  top: 840px;
+}
+
+.goback:hover {
+  background-color: #aaa;
+}
+
+.goback a {
+  color: #333333;
+}
+.goback:hover {
+  background-image: -webkit-linear-gradient(
+    70deg,
+    rgb(119, 138, 192) 0%,
+    rgb(255, 255, 255) 100%
+  );
+}
+.title {
+  display: flex;
+  justify-content: center;
+  color: #333333;
+  font-size: 26px;
+  font-family: Montserrat, sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+}

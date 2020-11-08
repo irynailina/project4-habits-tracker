@@ -1,0 +1,28 @@
+.mainContainer {
+  margin: 0 auto;
+  /* width: 100%; */
+  width: 1280px;
+}
+
+.sideBar {
+  position: relative;
+  /* width: 269px; Ира поменяла */
+  /* width: 271px; */
+  width: 269px;
+  height: 100vh;
+  background: #373b53;
+  min-height: 100vh; /* my ADD */
+  height: auto; /* my ADD */
+  padding-top: 40px; /* my ADD */
+}
+
+.date {
+  display: flex;
+  position: relative;
+  /* top: 40px;  my ADD */
+  left: 55px;
+  width: 1180px;
+  /* ШИРИНА ОСНОВНОГО КОНТЕЙНЕРА  */
+  background: rgba(255, 255, 255, 0.5);
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+}

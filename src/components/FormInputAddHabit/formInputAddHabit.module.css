@@ -1,0 +1,16 @@
+.input {
+  height: 52px;
+  width: 214px;
+  border: 1px solid #ff6c00;
+  padding-left: 30px;
+  font-family: Montserrat, sans-serif;
+}
+
+.input:focus {
+  outline-color: #ff6c00;
+}
+
+.input::placeholder {
+  color: #a6acbe;
+  font-size: 14px;
+}

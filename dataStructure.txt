@@ -1,0 +1,18 @@
+const exampleState = {
+  userId: '2131dsasdasdasd',
+  total: 290,
+  habits: [
+    {
+      habitId: 'dsdad121321321dadasd',
+      name: "workout",
+      data: [true, true, true, true, true, true, true, true, true, false, false, false, false, false, null, null, null, null, null, null, null], // 21
+      efficiency: '50%', // считает бек или фронт?
+    },
+    {
+      habitId: 'fdfsfsdf123212313',
+      name: 'dance every day',
+      data: [true, true, true, true, true, true, true, true, true, false, false, false, false, false, null, null, null, null, null, null, null], // 21
+      efficiency: '70%', // считает бек или фронт?
+    } // привычек максимум 10шт
+  ],
+};

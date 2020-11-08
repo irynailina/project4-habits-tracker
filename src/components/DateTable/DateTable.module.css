@@ -1,0 +1,40 @@
+table {
+  border-collapse: collapse;
+  /* caption-side:bottom; */
+}
+
+.box {
+  width: 37px;
+  height: 54px;
+  border: solid 1px #eef0f7;
+  text-align: center;
+}
+
+.box:nth-child(8),
+.box:nth-child(15),
+.box:nth-child(22) {
+  border-right-color: rgba(255, 108, 0, 0.3);
+}
+
+.week {
+  font-family: Roboto, sans-serif;
+  font-size: 11px;
+  color: #a6acbe;
+  margin-bottom: 5px;
+}
+
+.date {
+  font-family: Roboto, sans-serif;
+  font-size: 11px;
+  color: #181c27;
+}
+
+.efficiency {
+  border: solid 1px #eef0f7;
+  width: 188px;
+  text-align: center;
+  font-family: Montserrat, sans-serif;
+  font-size: 14px;
+  color: #181c27;
+  padding: 0 20px;
+}
